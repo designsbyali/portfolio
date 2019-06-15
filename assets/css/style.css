@@ -230,9 +230,10 @@ h5 {
 }
 
 h6 {
-  color:#828282;
+  color:#0;
   font-size: .9em;
   font-weight: 700;
+  line-height:
 }
 
 h1 span {
@@ -842,9 +843,14 @@ span.number {
                             [09] CONTACT
    ========================================================================== */
 
+.contact-item h2{
+  font-size: 1.5em;
+  font-weight: 700;
+}
 .contact-item h3 {
     color: #000;
     margin-bottom: 20px;
+    font-size: 1em;
 }
 
 
@@ -885,6 +891,7 @@ a.phone {
 .copyright h3 {
     font-family: 'futura-pt', serif;
     color: #000;
+    font-size: 14px;
 
 }
 
@@ -904,7 +911,7 @@ a.phone {
     position: absolute;
     display: block;
     margin-top: -5px;
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -30%);
     top: 90%;
     left: 50%;
     z-index: -1;
