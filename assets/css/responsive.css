@@ -1,0 +1,150 @@
+@media (max-width: 575.98px) {
+    .hero-bg img {
+        height: 100%;
+        width: auto;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        display: none;
+    }
+    a.menu-link {
+        font-size: 30px;
+    }
+
+    .project-detail-item {
+        width: 100% !important;
+    }
+    .project-detail-icon {
+        margin: 20px 0;
+    }
+
+
+    .project-detail-icon img {
+        max-width: 60%;
+    }
+
+    .about-text-bg {
+        display: none;
+    }
+
+    .left-bg {
+        display: none
+    }
+
+    .right-bg {
+        display: none;
+    }
+
+    .toggle-btn::before {
+        display: none;
+    }
+    .hero-title h1 {
+        font-size: 40px;
+    }
+    .links::before {
+        display: none;
+    }
+    .news-text p {
+        display: none;
+    }
+    .hero-title {
+        padding: 0 30px;
+    }
+    .solution-paragraph {
+      width: 383px;
+    }
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+    .address-menu {
+        display: none;
+    }
+    .links::before {
+        display: none;
+    }
+    .left-bg {
+        display: none
+    }
+
+    .right-bg {
+        display: none;
+    }
+    .project-detail-icon {
+        margin: 20px 0;
+    }
+
+
+    .project-detail-icon img {
+        max-width: 40%;
+    }
+
+    .toggle-btn::before {
+        display: none;
+    }
+    .hero-title h1 {
+        font-size: 40px;
+    }
+    .solution-paragraph {
+      width: 383px;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+
+  .solution-paragraph {
+    width: 383px;
+  }
+    .left-bg {
+        display: none
+    }
+
+
+    .right-bg {
+        display: none;
+    }
+    .project-detail-icon {
+        margin: 20px 0;
+    }
+
+
+    .project-detail-icon img {
+        max-width: 40%;
+    }
+    .preference-test-1 {
+  padding: 10px;
+  min-height: 263px;
+}
+
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .left-bg {
+        display: none
+    }
+
+    .right-bg {
+        display: none;
+    }
+
+}
+
+
+/* // Large devices (desktops, less than 1200px) RETINA */
+@media (min-width: 1200px) and (max-width: 4000px) {
+    .work-item {
+        height: 350px;
+    }
+
+    .mt-60-lg {
+        margin-top: 60px !important;
+    }
+
+    .preference-test-1 {
+  padding: 10px;
+  max-height: 264px;
+}
+
+}
